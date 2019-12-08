@@ -1,0 +1,17 @@
+html,body,object,iframe,img,table,tbody,tfoot,thead,td,th,tr
+form,label,legend{margin:0; padding:0; border:0; vertical-align:baseline; background:transparent;}
+html { -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%;}
+html, body{width:100%; height:100%;}
+article,aside,footer,header,nav,section,figcaption,figure,main {display: block;}
+table,td,th,tr {border-collapse:collapse; border-spacing:0;}
+input, select, textarea, button, optgroup{font-family: inherit; font-size: 100%; line-height: 1.15; margin: 0;}
+button,input[type="button"], input[type="submit"], input[type="reset"]{cursor: pointer, -webkit-appearance: button; }
+input:focus, button:focus, select:focus, textarea:focus {outline:none}
+textarea{overflow: auto;}
+*{box-sizing: border-box;}
+hr{box-sizing: content-box;height: 0;overflow: visible;}
+img, iframe{max-width: 100%; height: auto;}
+a {background-color: transparent; -webkit-text-decoration-skip: objects;}
+img {border-style: none;}
+.clearfix::after{clear: both; content: "";	display: table;}
+

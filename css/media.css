@@ -1,0 +1,198 @@
+@media screen and (max-width: 900px) {
+	.header .container {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.items {
+		text-align: center;
+	}
+	.item {
+		width: 100%;
+	}
+	.item-1 {
+		padding: 0 20px;
+	}
+	.item-2 {
+		margin-top: 20px;
+		padding: 0 20px;
+	}
+	.item-2 h5 + p {
+		padding: 10px 0 15px;
+	}
+	.link-resume {
+		margin-top: 20px;
+	}
+	.my-skills {
+		width: 50%;
+		margin-bottom: 20px; 
+	}
+}
+@media screen and (max-width: 655px) {
+	.footer-item {
+		width: 100%;
+		text-align: center;
+	}
+	.footer-icon {
+		width: 100%;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 591px) {
+	.promo-text h2 {
+		font-size: 2.5rem;
+	}
+	.promo-text p {
+		font-size: 1.5rem;
+	}
+	.about {
+		padding: 40px 20px;
+	}
+	.about h3 {
+		font-size: 1.5rem;
+	}
+	.about p {
+		font-size: 1rem;
+	}
+	.wraper-text {
+		padding: 0 20px;
+	}
+	.wraper-photo {
+		width: 50%;
+		padding: 0 5px;
+	}
+	.wraper-contact-text {
+		padding: 60px 0;
+	}
+	.wraper-form {
+		padding: 50px 0 65px;
+	}
+	.wraper {
+		width: 100%;
+	}
+	.form {
+		padding: 0 20px;
+	}
+	.form-input,
+	.form-message {
+		width: 100%;
+	}
+	.wraper-button {
+		width: 100%;
+	}
+	.send-message {
+		padding: 15px 0;
+		width: 100%;
+	}
+}
+@media screen and (max-width: 560px) {
+	.header {
+		padding: 14px 0;
+	}
+	.header .container {
+		position: relative;
+	}
+	.btn-nav{
+		display: block;
+		background: transparent;
+		width: 50px;
+		height: 50px;
+		border: 1px solid #fff;
+		border-radius: 3px;
+		margin-right: 5px;
+		position: relative;
+	}
+	.btn-nav {
+		position: absolute;
+		top: -5px;
+		right: 0
+	}
+	.btn-nav i{
+		width: 18px;
+		height: 2px;
+		background: #fff;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-left: -9px;
+	}
+	.btn-nav i::after,
+	.btn-nav i::before{
+		content: "";
+		width: 18px;
+		height: 2px;
+		background: #fff;
+		position: absolute;
+		left: 0;
+	}
+	.btn-nav i::after {
+		top: -6px;
+	}
+	.btn-nav i::before {
+		top: 6px; 
+	}
+	.btn-nav.is-active i{
+		background: transparent;
+	}
+	.btn-nav.is-active i::after {
+		top: 0;
+		transform: rotate(45deg);
+	}
+	.btn-nav.is-active i::before {
+		top: 0;
+		transform: rotate(-45deg);
+	}
+	.main-nav {
+		min-width: 100%;
+	}
+	.main-nav {
+		display: none;
+		margin-top: 20px;
+	}
+	.main-nav ul {
+		flex-direction: column;
+		background: #02918c;
+		padding: 10px 0;
+	}
+	.main-nav ul li {
+		margin: 0;
+	}
+	.main-nav ul li a {
+		border-bottom: 1px solid #fff; 
+		padding: 10px 23px;
+	}
+	.promo {
+		margin-top: 68px;
+	}
+	.my-skills {
+		width: 100%;
+		margin-bottom: 20px; 
+	}
+	.wraper-photo {
+		width: 100%;
+		padding: 0;
+	}
+	.item-1 {
+		padding: 0 10px;
+	}
+	.item-2 {
+		padding: 0 10px;
+	}
+	.about {
+		padding: 40px 10px;
+	}
+	.wraper-text {
+		padding: 0 10px;
+	}
+	.photos {
+		padding: 20px 10px 0;
+	}
+	.form {
+		padding: 0 10px;
+	}
+}
+@media screen and (min-width: 561px){
+	.main-nav{
+		display: block !important;
+	}
+}
